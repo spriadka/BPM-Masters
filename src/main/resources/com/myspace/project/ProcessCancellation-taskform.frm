@@ -1,0 +1,1 @@
+{"id":"4f2d0eef-cd3d-460d-84d7-cdeac50e63b0","name":"ProcessCancellation-taskform.frm","model":{"taskName":"ProcessCancellation","processId":"project.OrderCancellation","properties":[],"formModelType":"org.kie.workbench.common.forms.jbpm.model.authoring.task.TaskFormModel"},"fields":[],"layoutTemplate":{"version":3,"style":"FLUID","layoutProperties":{},"rows":[]}}

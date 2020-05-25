@@ -1,0 +1,1 @@
+{"id":"71e2d3e6-17a4-4348-8074-6b57470c7f77","name":"PrioritisedCancellation-taskform.frm","model":{"taskName":"PrioritisedCancellation","processId":"project.OrderCancellation","properties":[],"formModelType":"org.kie.workbench.common.forms.jbpm.model.authoring.task.TaskFormModel"},"fields":[],"layoutTemplate":{"version":3,"style":"FLUID","layoutProperties":{},"rows":[]}}

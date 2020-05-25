@@ -1,0 +1,1 @@
+{"id":"c294dba1-da10-4948-a662-6f04c821ca19","name":"PickupOrder-taskform.frm","model":{"taskName":"PickupOrder","processId":"project.HandlePreparedOrder","properties":[],"formModelType":"org.kie.workbench.common.forms.jbpm.model.authoring.task.TaskFormModel"},"fields":[],"layoutTemplate":{"version":3,"style":"FLUID","layoutProperties":{},"rows":[]}}

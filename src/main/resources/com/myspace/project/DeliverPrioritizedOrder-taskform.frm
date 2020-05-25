@@ -1,0 +1,1 @@
+{"id":"72729604-fbb3-4929-b894-877178788e7f","name":"DeliverPrioritizedOrder-taskform.frm","model":{"taskName":"DeliverPrioritizedOrder","processId":"project.HandlePreparedOrder","properties":[],"formModelType":"org.kie.workbench.common.forms.jbpm.model.authoring.task.TaskFormModel"},"fields":[],"layoutTemplate":{"version":3,"style":"FLUID","layoutProperties":{},"rows":[]}}

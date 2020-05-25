@@ -1,0 +1,1 @@
+{"id":"3999b744-76c1-4ea6-b848-e99ad3aed9b5","name":"DeliverOrder-taskform.frm","model":{"taskName":"DeliverOrder","processId":"project.HandlePreparedOrder","properties":[],"formModelType":"org.kie.workbench.common.forms.jbpm.model.authoring.task.TaskFormModel"},"fields":[],"layoutTemplate":{"version":3,"style":"FLUID","layoutProperties":{},"rows":[]}}
