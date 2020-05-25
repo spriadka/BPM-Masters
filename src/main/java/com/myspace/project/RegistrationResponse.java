@@ -6,12 +6,34 @@ package com.myspace.project;
 
 public class RegistrationResponse implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public RegistrationResponse() {
-    }
+	private java.lang.Boolean alreadyRegistered;
+	private java.lang.String errorMessage;
 
+	public RegistrationResponse() {
+	}
 
+	public java.lang.Boolean getAlreadyRegistered() {
+		return this.alreadyRegistered;
+	}
 
+	public void setAlreadyRegistered(java.lang.Boolean alreadyRegistered) {
+		this.alreadyRegistered = alreadyRegistered;
+	}
+
+	public java.lang.String getErrorMessage() {
+		return this.errorMessage;
+	}
+
+	public void setErrorMessage(java.lang.String errorMessage) {
+		this.errorMessage = errorMessage;
+	}
+
+	public RegistrationResponse(java.lang.Boolean alreadyRegistered,
+			java.lang.String errorMessage) {
+		this.alreadyRegistered = alreadyRegistered;
+		this.errorMessage = errorMessage;
+	}
 
 }
