@@ -1,0 +1,1 @@
+{"id":"7fa6e4af-db90-4723-9b69-35e09990be6c","name":"SendOrderToWarehouse-taskform.frm","model":{"taskName":"SendOrderToWarehouse","processId":"project.PrescriptionBasedDrugOrder","properties":[],"formModelType":"org.kie.workbench.common.forms.jbpm.model.authoring.task.TaskFormModel"},"fields":[],"layoutTemplate":{"version":3,"style":"FLUID","layoutProperties":{},"rows":[]}}

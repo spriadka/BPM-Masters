@@ -1,0 +1,1 @@
+{"id":"a52ed339-47a4-44f2-b983-ad4e0dc1da8e","name":"PrepareOrderItems-taskform.frm","model":{"taskName":"PrepareOrderItems","processId":"project.PrescriptionBasedDrugOrder","properties":[],"formModelType":"org.kie.workbench.common.forms.jbpm.model.authoring.task.TaskFormModel"},"fields":[],"layoutTemplate":{"version":3,"style":"FLUID","layoutProperties":{},"rows":[]}}

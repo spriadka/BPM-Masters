@@ -1,0 +1,1 @@
+{"id":"823bdd79-25ec-4186-ad7e-5319b41ad6be","name":"PackageOrder-taskform.frm","model":{"taskName":"PackageOrder","processId":"project.PrescriptionBasedDrugOrder","properties":[],"formModelType":"org.kie.workbench.common.forms.jbpm.model.authoring.task.TaskFormModel"},"fields":[],"layoutTemplate":{"version":3,"style":"FLUID","layoutProperties":{},"rows":[]}}
