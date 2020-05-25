@@ -1,0 +1,1 @@
+{"id":"b2b2ea25-b40a-4e6f-831e-39dd5fad1b97","name":"DelegateProcessing-taskform.frm","model":{"taskName":"DelegateProcessing","processId":"project.UserRegistration","properties":[],"formModelType":"org.kie.workbench.common.forms.jbpm.model.authoring.task.TaskFormModel"},"fields":[],"layoutTemplate":{"version":3,"style":"FLUID","layoutProperties":{},"rows":[]}}

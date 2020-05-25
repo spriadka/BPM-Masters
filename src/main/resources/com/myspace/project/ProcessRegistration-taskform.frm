@@ -1,0 +1,1 @@
+{"id":"860406af-cfc2-4d8f-be8c-a1d44882685d","name":"ProcessRegistration-taskform.frm","model":{"taskName":"ProcessRegistration","processId":"project.UserRegistration","properties":[],"formModelType":"org.kie.workbench.common.forms.jbpm.model.authoring.task.TaskFormModel"},"fields":[],"layoutTemplate":{"version":3,"style":"FLUID","layoutProperties":{},"rows":[]}}
