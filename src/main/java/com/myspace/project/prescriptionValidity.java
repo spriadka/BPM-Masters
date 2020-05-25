@@ -5,13 +5,13 @@ package com.myspace.project;
  */
 
 @javax.xml.bind.annotation.XmlRootElement
-public class prescriptionValidity implements java.io.Serializable {
+public class PrescriptionValidity implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
 	private boolean valid;
 
-	public prescriptionValidity() {
+	public PrescriptionValidity() {
 	}
 
 	public boolean isValid() {
@@ -22,7 +22,7 @@ public class prescriptionValidity implements java.io.Serializable {
 		this.valid = valid;
 	}
 
-	public prescriptionValidity(boolean valid) {
+	public PrescriptionValidity(boolean valid) {
 		this.valid = valid;
 	}
 
