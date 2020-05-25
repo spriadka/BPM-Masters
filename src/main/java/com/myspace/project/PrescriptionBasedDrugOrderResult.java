@@ -12,17 +12,16 @@ public class PrescriptionBasedDrugOrderResult implements java.io.Serializable {
 	private java.lang.String name;
 	@org.kie.api.definition.type.Label("Contact email")
 	private java.lang.String email;
-	@org.kie.api.definition.type.Label("Drug")
-	private java.lang.String drug;
-	@org.kie.api.definition.type.Label("Amount")
-	private int amount;
 	@org.kie.api.definition.type.Label("Valid order")
 	private boolean valid;
 	@org.kie.api.definition.type.Label("Available")
 	private boolean available;
 
-	@org.kie.api.definition.type.Label(value = "Personal Identification Number")
+	@org.kie.api.definition.type.Label("Personal Identification Number")
 	private java.lang.String personalIdentificationNumber;
+
+	@org.kie.api.definition.type.Label(value = "Prescription")
+	private java.lang.String prescription;
 
 	public PrescriptionBasedDrugOrderResult() {
 	}
@@ -41,22 +40,6 @@ public class PrescriptionBasedDrugOrderResult implements java.io.Serializable {
 
 	public void setEmail(java.lang.String email) {
 		this.email = email;
-	}
-
-	public java.lang.String getDrug() {
-		return this.drug;
-	}
-
-	public void setDrug(java.lang.String drug) {
-		this.drug = drug;
-	}
-
-	public int getAmount() {
-		return this.amount;
-	}
-
-	public void setAmount(int amount) {
-		this.amount = amount;
 	}
 
 	public boolean isValid() {
@@ -84,17 +67,24 @@ public class PrescriptionBasedDrugOrderResult implements java.io.Serializable {
 		this.personalIdentificationNumber = personalIdentificationNumber;
 	}
 
+	public java.lang.String getPrescription() {
+		return this.prescription;
+	}
+
+	public void setPrescription(java.lang.String prescription) {
+		this.prescription = prescription;
+	}
+
 	public PrescriptionBasedDrugOrderResult(java.lang.String name,
-			java.lang.String email, java.lang.String drug, int amount,
-			boolean valid, boolean available,
-			java.lang.String personalIdentificationNumber) {
+			java.lang.String email, boolean valid, boolean available,
+			java.lang.String personalIdentificationNumber,
+			java.lang.String prescription) {
 		this.name = name;
 		this.email = email;
-		this.drug = drug;
-		this.amount = amount;
 		this.valid = valid;
 		this.available = available;
 		this.personalIdentificationNumber = personalIdentificationNumber;
+		this.prescription = prescription;
 	}
 
 }

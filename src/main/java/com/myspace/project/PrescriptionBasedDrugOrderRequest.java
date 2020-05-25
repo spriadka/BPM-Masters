@@ -8,9 +8,6 @@ public class PrescriptionBasedDrugOrderRequest implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	private java.lang.String drug;
-	private int amount;
-
 	@org.kie.api.definition.type.Label("Personal Identification Number")
 	private java.lang.String personalIdentificationNumber;
 
@@ -20,15 +17,9 @@ public class PrescriptionBasedDrugOrderRequest implements java.io.Serializable {
 	@org.kie.api.definition.type.Label("Contact email")
 	private java.lang.String email;
 
+	private java.lang.String prescription;
+
 	public PrescriptionBasedDrugOrderRequest() {
-	}
-
-	public java.lang.String getDrug() {
-		return this.drug;
-	}
-
-	public void setDrug(java.lang.String drug) {
-		this.drug = drug;
 	}
 
 	public java.lang.String getPersonalIdentificationNumber() {
@@ -56,22 +47,22 @@ public class PrescriptionBasedDrugOrderRequest implements java.io.Serializable {
 		this.email = email;
 	}
 
-	public int getAmount() {
-		return this.amount;
+	public java.lang.String getPrescription() {
+		return this.prescription;
 	}
 
-	public void setAmount(int amount) {
-		this.amount = amount;
+	public void setPrescription(java.lang.String prescription) {
+		this.prescription = prescription;
 	}
 
-	public PrescriptionBasedDrugOrderRequest(java.lang.String drug, int amount,
+	public PrescriptionBasedDrugOrderRequest(
 			java.lang.String personalIdentificationNumber,
-			java.lang.String name, java.lang.String email) {
-		this.drug = drug;
-		this.amount = amount;
+			java.lang.String name, java.lang.String email,
+			java.lang.String prescription) {
 		this.personalIdentificationNumber = personalIdentificationNumber;
 		this.name = name;
 		this.email = email;
+		this.prescription = prescription;
 	}
 
 }
